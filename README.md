@@ -5,9 +5,9 @@ This folder contains static pages for App Store submission:
 - `index.html`: Support URL page
 - `privacy.html`: Privacy Policy URL page
 
-The repository includes `.github/workflows/pages.yml` to publish this folder with GitHub Pages.
+This public repository is dedicated to GitHub Pages hosting for App Store support and privacy pages.
 
-Expected URLs after Pages is enabled for the repository:
+Expected public URLs:
 
 - Support URL: `https://masanori120.github.io/field-report-maker-site/`
 - Privacy Policy URL: `https://masanori120.github.io/field-report-maker-site/privacy.html`
