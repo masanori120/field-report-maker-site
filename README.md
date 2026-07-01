@@ -9,7 +9,7 @@ The repository includes `.github/workflows/pages.yml` to publish this folder wit
 
 Expected URLs after Pages is enabled for the repository:
 
-- Support URL: `https://masanori120.github.io/field-report-maker/`
-- Privacy Policy URL: `https://masanori120.github.io/field-report-maker/privacy.html`
+- Support URL: `https://masanori120.github.io/field-report-maker-site/`
+- Privacy Policy URL: `https://masanori120.github.io/field-report-maker-site/privacy.html`
 
 Before App Store submission, verify these URLs are reachable without authentication, then use them in App Store Connect.
