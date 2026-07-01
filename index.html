@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>現場レポート サポート</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211c;
+      --muted: #617068;
+      --line: #dfe7e2;
+      --paper: #f6f8f5;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.75;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 20px 56px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 7vw, 48px);
+      line-height: 1.1;
+    }
+    h2 {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      font-size: 22px;
+    }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); font-weight: 700; }
+    .lead {
+      margin: 0 0 24px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: white;
+      text-decoration: none;
+    }
+    .note {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>現場レポート サポート</h1>
+    <p class="lead">現場写真、メモ、確認、PDF出力をまとめるローカル保存型の写真台帳アプリです。</p>
+
+    <div class="actions">
+      <a class="button" href="privacy.html">プライバシーポリシー</a>
+      <a class="button" href="#contact">お問い合わせ</a>
+    </div>
+
+    <h2>よくある確認事項</h2>
+    <ul>
+      <li>案件、写真メモ、設定は端末内に保存されます。</li>
+      <li>カメラと写真ライブラリの権限は、写真台帳へ写真を追加するために使います。</li>
+      <li>PDFは端末内で生成されます。共有先はユーザーが選択したアプリに依存します。</li>
+      <li>Free版では案件数やPDF出力回数に制限があり、Proで解除できます。</li>
+    </ul>
+
+    <h2>Proでできること</h2>
+    <ul>
+      <li>顧客提出用の透かしなしPDFを作成できます。</li>
+      <li>案件数とPDF出力回数の制限を解除できます。</li>
+      <li>PDFテンプレート、会社情報入りPDF、CSVコピー出力を利用できます。</li>
+    </ul>
+
+    <h2>トラブル時</h2>
+    <ul>
+      <li>写真が追加できない場合は、iOS設定アプリでカメラ/写真の許可を確認してください。</li>
+      <li>PDF共有が表示されない場合は、端末の共有シートで保存先アプリが利用可能か確認してください。</li>
+      <li>写真容量が気になる場合は、アプリ情報画面の「写真ファイルを整理」を実行してください。</li>
+    </ul>
+
+    <h2 id="contact">お問い合わせ</h2>
+    <p class="note">
+      Developer: aikobolab<br>
+      Contact: <a href="mailto:suzuki12080316@gmail.com">suzuki12080316@gmail.com</a>
+    </p>
+  </main>
+</body>
+</html>
